@@ -47,7 +47,7 @@ A low-voltage controller board for driving a 220V 400W aluminum PTC heater throu
 
 | Schematic Design |
 | :---: |
-| ![Schematic Diagram](schematics.png) |
+| ![Schematic Diagram](Images/schematics.png) |
 
 | PCB Top Layer Routing | PCB Bottom Layer Routing |
 | :---: | :---: |
