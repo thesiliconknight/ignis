@@ -44,6 +44,8 @@ A low-voltage controller board for driving a 220V 400W aluminum PTC heater throu
 | 4 | SW_Push (6mm Tactile) | SW_PUSH_6mm | SW1, SW2, SW3, SW4 |
 | 1 | CH32V006FxPx MCU | TSSOP-20_4.4x6.5mm_P0.65mm | U1 |
 | 1 | AMS1117-3.3 LDO | SOT-223-3_TabPin2 | U3 |
+| 1 | 220V 400W PTC Aluminum Heater Plate | N/A (Off-board) | — |
+| 1 | SSR-40/25 DA Solid State Relay | N/A (Off-board) | — |
 
 | Schematic Design |
 | :---: |
