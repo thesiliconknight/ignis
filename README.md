@@ -54,12 +54,12 @@ A low-voltage controller board for driving a 220V 400W aluminum PTC heater throu
 | ![Top Routing](Images/routing_topbrd.png) | ![Bottom Routing](Images/routing_btmbrd.png) |
 ### Connections
 * **Power (USB-C to 3.3V):** 5V via USB-C (J6) and routes to the SSR connector and the AMS1117 V.REG (U3), which powers the MCU, OLED, and thermistor etc.
-* **Thermistor Input (NTC):** Connects the 100K NTC between 3.3V and the MCU's ADC pin (`PD2`).
-* **SSR Driver (SSR):** The MCU's PWM pin (`PC3`) switches the AO3400 Gate (Q1). The MOSFET pulls the negative side of the SSR terminal to GND, triggering the external relay.
-* **OLED Header (SCREEN):** Connected to `PC1` (SDA) and `PC2` (SCK).
+* **Thermistor Input (NTC):** Connects the 100K NTC between 3.3V and the MCU's ADC pin (PD2).
+* **SSR Driver (SSR):** The MCU's PWM pin (PC3) switches the AO3400 Gate (Q1). The MOSFET pulls the negative side of the SSR terminal to GND, triggering the external relay.
+* **OLED Header (SCREEN):** Connected to PC1 (SDA) and PC2 (SCK).
 * **Button Header (BTNS):** 5-pin header breaking out the 4 tactile switches (SW1–SW4).
-* **Programming Header (PRGRM):** Breaks out `3.3V`, `GND`, and the single-wire debug line (`PD1` / SWIO) for the programmer.
-* **Status LEDs:** HEATING and RDY LEDs (PIn PD2 & PD3)
+* **Programming Header (PRGRM):** Breaks out 3.3V, GND, and the single-wire debug line (PD1 / SWIO) for the programmer.
+* **Status LEDs:** HEATING and RDY LEDs (Pin PD2 & PD3)
 ## License
 This hardware project is open-source and licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0). 
 You are free to copy, modify, distribute, and manufacture this board for personal or commercial use. However, if you modify these schematic or layout files and distribute your new design, you must release those modifications under this exact same CERN-OHL-S-2.0 license.
