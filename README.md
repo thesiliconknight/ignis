@@ -1,9 +1,9 @@
 # Ignis
-A low-voltage controller board for driving a 220V 400W aluminum PTC heater through an external SSR, featuring precision NTC temperature sensing, an OLED status display, and MOSFET-isolated relay switching. The board is built around the CH32V006F8P6 MCU, which handles the ADC sensing, OLED interface, and SSR triggering entirely off 3.3V/5V logic, keeping all mains voltage completely off-board.
+A low-voltage controller board for driving a 220V 400W aluminum PTC heater through an external SSR, it uses a NTC for temperature sensing, an OLED status display, and MOSFET-isolated relay switching. The board is built around the CH32V006F8P6 MCU, which handles the ADC sensing, OLED interface, and SSR triggering entirely off 3.3V/5V logic, keeping all mains voltage completely off-board.
 ## Pictures
 | Top View | Bottom View |
 | :---: | :---: |
-| ![Board Front](<Images (R)/topbrd.png>) | ![Board Back](<Images (R)/btmbrd.png>) |
+| ![Board Front](Images/topbrd.png) | ![Board Back](Images/btmbrd.png) |
 ## Features
 * **Main Controller:** CH32V006F8P6, providing 62KB Flash and 8KB RAM, cheap, powerful and reliable
 * **USB-C Power:** Board is powered entirely over USB-C.
@@ -49,7 +49,7 @@ A low-voltage controller board for driving a 220V 400W aluminum PTC heater throu
 | ![Schematic Diagram](schematics.png) |
 | PCB Top Layer Routing | PCB Bottom Layer Routing |
 | :---: | :---: |
-| ![Top Routing](<Images (R)/routing_topbrd.png>) | ![Bottom Routing](<Images (R)/routing_btmbrd.png>) |
+| ![Top Routing](Images/routing_topbrd.png) | ![Bottom Routing](Images/routing_btmbrd.png) |
 ### Connections
 * **Power (USB-C to 3.3V):** 5V via USB-C (J6) and routes to the SSR connector and the AMS1117 V.REG (U3), which powers the MCU, OLED, and thermistor etc.
 * **Thermistor Input (NTC):** Connects the 100K NTC between 3.3V and the MCU's ADC pin (`PD2`).
