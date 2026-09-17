@@ -1,24 +1,23 @@
 # Ignis
-A low-voltage controller board for driving a 220V 400W aluminum PTC heater through an external SSR, it uses a NTC for temperature sensing, an OLED status display, and MOSFET-isolated relay switching. The board is built around the CH32V006F8P6 MCU, which handles the ADC sensing, OLED interface, and SSR triggering entirely off 3.3V/5V logic, keeping all mains voltage completely off-board.
+A low-voltage controller board for driving a 220V 400W aluminum PTC heater via an external SSR, it has a NTC for temperature readings, an OLED status/info display, and MOSFET-isolated relay stuff. The board uses the CH32V006F8P6 MCU, its mainly used for triggering the SSR and reading temps,it keeps all mains voltage completely off of the board.
 ## Pictures
 | Top View | Bottom View |
 | :---: | :---: |
 | ![Board Front](Images/topbrd.png) | ![Board Back](Images/btmbrd.png) |
 ## Features
-* **Main Controller:** CH32V006F8P6, providing 62KB Flash and 8KB RAM, cheap, powerful and reliable
-* **USB-C Power:** Board is powered entirely over USB-C.
-* **No High Voltage:** The custom PCB handles 5V/3.3V logic. The 220V AC mains load is kept entirely off-board and switched safely via an external SSR.
-* **Precision Sensing:** Utilizes a 100K NTC 3950 glass-bead thermistor it can read up to 300°C.
-* **Robust Relay Driver:** An AO3400A logic-level N-channel MOSFET drives the external SSR, protecting the MCU's GPIO pins from current draw.
-* **OLED Interface:** I2C header for a standard 0.91" SSD1306 OLED module to display target temperature, current temperature, and heating status.
+* **Main Controller:** CH32V006F8P6,62KB Flash and 8KB RAM.
+* **USB-C Power:** Board is powered over USB-C.
+* **No High Voltage:** The PCB handles 5V/3.3V logic. The 220V AC mains load is kept off-board and switched safely via a external SSR.
+* **Precision Sensing:** It uses a 100K NTC thermistor it can read up to 300°C.
+* **OLED Interface:** I2C header for a 0.91" SSD1306 OLED displaying target temps, current temp, and heating status.
 * **Status LEDs:** Inbuilt HEATING and RDY LEDs gives the heater state without needing a screen.
-* **Button Header:** 5-pin header breaking out 4 tactile buttons for on-device navigation.
+* **Button Header:** 5-pin header breaking out 4 tactile buttons for menu navigation.
 ## Components Used
 * **Microcontroller:** WCH CH32V006F8P6 (TSSOP-20)
 * **Power Input:** USB-C receptacle (power-only)
 * **High Voltage Switch:** External SSR connected via terminal block
 * **Heater:** 220V 400W PTC Aluminum Heating Plate
-* **Thermistor:** 100K NTC, connected via a JST-PH 2-pin connector
+* **Thermistor:** 100K NTC connected via a JST-PH 2-pin connector
 * **Screen:** 0.91" SSD1306 I2C OLED Module
 * **Miscellaneous:** AMS1117-3.3V Regulator, AO3400A MOSFET, 4x tactile buttons, 2x status LEDs, and assorted 0603 passives.
 
