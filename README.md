@@ -49,11 +49,10 @@ A low-voltage controller board for driving a 220V 400W aluminum PTC heater throu
 | 1 | 220V 400W PTC Aluminum Heater Plate | N/A (Off-board) | — | [Link](https://hubtronics.in/aluminum-ptc-heating-plate?srsltid=AfmBOoofmvJnxpgYjjD9DPgNBhnGSLNf_ZdR-ngu1UgQvsgmx_wYjow5) | 500.00 |
 | 1 | SSR-40 DA Solid State Relay | N/A (Off-board) | — | [Link](https://robu.in/product/dc-ac-ssr-40da-solid-state-relay-module-3-32vdc24-380vac-40a/?gad_source=1&gad_campaignid=17427802703&gclid=CjwKCAjw2aPVBhBkEiwA0Cptt2UdfUGUIJVYDIimHF9UJncTepMdDUKAhNORn_AaWNtUh0izbvHMLhoCZlQQAvD_BwE) | 269.00 |
 | 1 | 100K NTC 3950 Thermistor | N/A (Off-board) | — | [Link](https://robu.in/product/thermistor-100k-ntc-1-meter-cable-temperature-sensor/?gad_source=1&gad_campaignid=17427803012&gclid=CjwKCAjw2aPVBhBkEiwA0Cptt76Yj44bFy054WNXM6b__TI9zpSi9M1uR_w4w8og-iXCbKlJB2rq0hoCktkQAvD_BwE) | 42.00 |
-| | | | | **Component Total:** | **1178.25 Rs** |
+| | | | | **Component Total:** | **1178.25 Rs** (12.30$)|
 
 *Note: Shipping and delivery fees across various vendors will add an estimated 100 - 200 Rs to the final cost.*
 
-*Note: Shipping and delivery fees across various vendors will add an estimated 100 - 200 Rs to the final cost.*
 
 | Schematic Design |
 | :---: |
